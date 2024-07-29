@@ -6,3 +6,6 @@ Demo images are present in the `demo_images` folder. The images are used to demo
 Please test the functionality in real device only. The application may not work as expected in the Android emulator.
 
 GitHub link of this project: https://github.com/malwinder-s/ml_image_classifier
+
+![Screenshot 2024-07-29 at 7 43 23 PM](https://github.com/user-attachments/assets/901a4ed8-bc9f-4fec-a844-5ff3193b949a)
+![Screenshot 2024-07-29 at 7 43 09 PM](https://github.com/user-attachments/assets/03c7d239-3eca-4298-8b10-f927c2e5f21f)
