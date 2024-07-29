@@ -1,16 +1,2 @@
 # ml_image_classifier
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A Flutter application that uses the Flutter ML Kit to recognize and classify images. The application is built using the BLOC architecture pattern and be written in DART. The application allow users to upload an image, and then use the ML Kit to analyze the image and return a list of possible classifications for the image. The classifications is displayed to the user in a meaningful and user-friendly way.
