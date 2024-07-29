@@ -4,3 +4,5 @@ A Flutter application that uses the Flutter ML Kit to recognize and classify ima
 Demo images are present in the `demo_images` folder. The images are used to demonstrate the functionality of the application.
 
 Please test the functionality in real device only. The application may not work as expected in the Android emulator.
+
+GitHub link of this project: https://github.com/malwinder-s/ml_image_classifier
