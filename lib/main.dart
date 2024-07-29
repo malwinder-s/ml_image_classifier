@@ -78,21 +78,32 @@ class ClassificationResult extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(
-      itemCount: classifications.length,
-      itemBuilder: (context, index) {
-        return Card(
-          margin: const EdgeInsets.all(10.0),
-          child: ListTile(
-            leading: const Icon(Icons.label),
-            title: Text(
-              classifications[index],
-              style:
-                  const TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
-            ),
+    return Column(
+      children: [
+        Expanded(
+          child: ListView.builder(
+            itemCount: classifications.length,
+            itemBuilder: (context, index) {
+              return Card(
+                margin: const EdgeInsets.all(10.0),
+                child: ListTile(
+                  leading: const Icon(Icons.label),
+                  title: Text(
+                    classifications[index],
+                    style: const TextStyle(
+                        fontSize: 18.0, fontWeight: FontWeight.bold),
+                  ),
+                ),
+              );
+            },
           ),
-        );
-      },
+        ),
+        ElevatedButton(
+          onPressed: () => context.read<ImageBloc>().add(PickImage()),
+          child: const Text('Pick New Image'),
+        ),
+        const SizedBox(height: 20),
+      ],
     );
   }
 }
